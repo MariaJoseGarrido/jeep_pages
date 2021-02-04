@@ -77,7 +77,8 @@ color: #000000;
 }
 
 .seguridad_txt {
-  font-size: 35px;
+ margin-top: 60px;
+  font-size: 30px;
   color: #000000;
 }
 
@@ -187,5 +188,71 @@ color: #000000;
 /*FIN PROMOCIONES*/
 
 /*GARANTIAS*/
+
+.main-text-garantia{
+  font-size: 60px;
+color: #ffffff;
+}
+
+.condiciones_txt {
+  font-size: 20px;
+  color: #000000;
+}
+
+.derecho_txt{
+  padding: 8px 15px 8px 15px;
+  margin-top: 40px;
+  border: #000000 1px solid;
+  font-size: 14px;
+  color: #000000;
+}
+
+.img-mantenciones{
+  background-image: url(/assets/img/jeep_mantenciones.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-mopar_garantia{
+  background-image: url(/assets/img/mopar_garantia.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-mopar_rueda{
+  background-image: url(/assets/img/mopar_rueda.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-mopar_mantenciones{
+  background-image: url(/assets/img/mantenciones_concesionarios.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.garantia-btn{
+  cursor: pointer;
+  border: none;
+  padding: 20px 5px 20px 5px !important;
+  font-size:20px;
+  background-color: #FFB700;
+  color: #000000;
+  border-radius: inherit !important;
+  transition: .5s !important;
+  outline: none !important
+}
 /*FIN GARANTIAS*/
 
