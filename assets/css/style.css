@@ -1,0 +1,191 @@
+body{
+  background-color: #111111 !important;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+/*BENEFICIOS*/
+.main-text{
+  font-size: 30px;
+}
+
+.hotels{
+  background-color: #000000;
+}
+
+.color-txt{
+  color: #FFB700;
+  font-size: 18px;
+}
+
+.color-txt2{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.blackout-text{
+  font-size: 16px;
+
+}
+
+.hotels-btn{
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  font-size:16px;
+  background-color: black;
+  color: #FFB700;
+  border-radius: inherit !important;
+  transition: .5s !important;
+  outline: none !important
+}
+.hotels-btn:hover{
+  background-color: #111111;
+  outline: none !important
+}
+/*FIN BENEFICIOS*/
+
+
+/*PROMOCIONES*/
+
+.main-text-promo{
+font-size: 60px;
+color: #000000;
+}
+
+.mantenciones_txt{
+  font-size: 40px;
+  color: #000000;
+}
+
+.bgdark{
+  background-color: #000000;
+}
+
+.bglight{
+  background-color: #ffffff;
+}
+
+.color-txt3{
+  color:#e3ae3a ;
+}
+
+.jeep-txt{
+  font-size: 22px;
+}
+
+.seguridad_txt {
+  font-size: 35px;
+  color: #000000;
+}
+
+.liberate_txt{
+  font-size: 25px;
+  color: #000000;
+}
+
+.border-text{
+  border:#FFB700 2px solid;
+}
+
+.bg-color{
+  color: #000000;
+  background-color: #FFB700;
+  font-size: 20px;
+  padding: 3.5px;
+}
+
+.bg-color2 {
+  color: #000000;
+  background-color: #FFB700;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.concesionarios-btn{
+  cursor: pointer;
+  border: none;
+  padding: 20px 5px 20px 5px !important;
+  font-size:16px;
+  background-color: #FFB700;
+  color: #000000;
+  border-radius: inherit !important;
+  transition: .5s !important;
+  outline: none !important
+}
+
+.img-promos{
+  background-image: url('../img/mantenciones_prepagadas.jpg');
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-packs{
+  background-image: url(/assets/img/img_packs.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-concesionarios{
+  background-image: url(/assets/img/mantenciones_concesionarios.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-modelos{
+  background-image: url(/assets/img/conoce_modelos.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-seguridad{
+  background-image: url(/assets/img/jeep_seguridad.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-mantencion{
+  background-image: url(/assets/img/mantenciones_garantias.jpg);
+  width: 100%;
+  min-height: 400px !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mantencion-btn{
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  font-size:30px;
+  background-color: black;
+  color: #FFB700;
+  border-radius: inherit !important;
+  transition: .5s !important;
+  outline: none !important;
+  line-height: 1;
+}
+
+
+/*FIN PROMOCIONES*/
+
+/*GARANTIAS*/
+/*FIN GARANTIAS*/
+
