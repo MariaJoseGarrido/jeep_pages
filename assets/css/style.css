@@ -2,7 +2,14 @@ body{
   background-color: #111111 !important;
 }
 
-a:link{
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color:#000000;
+}
+
+a:hover{
+  color:#ffffff;
   text-decoration: none;
 }
 
@@ -260,3 +267,51 @@ color: #ffffff;
 }
 /*FIN GARANTIAS*/
 
+
+
+
+@media (max-width: 768px) { 
+  .conoce_txt{
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .bg-color{
+    margin-bottom: 20px;
+  }
+} 
+
+@media (max-width: 480px) { 
+
+}
+
+
+@media (min-width: 1024px){
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: landscape) 
+    { 
+ 
+    }
